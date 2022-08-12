@@ -1,0 +1,35 @@
+.wrapper{
+    display: flex;
+    margin: auto;
+
+}
+.num {
+    border: 0;
+    margin: 6px;
+    padding: 0px;
+    display: block;
+    color: #636c75;
+    font-size: 20px;
+    background-color: #252d37;
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    font-family: Overpass;
+    font-weight: bold;
+    cursor: pointer;
+}
+.numActive{
+    background-color: #7a8697;
+    color: white;
+}
+.num:hover{
+
+    color: #fcf1cd;
+    background-color: #f3781c;
+}
+@media only screen and (max-width: 600px) {
+    .num {
+        height: 3rem;
+        width: 3rem;
+    }
+}
