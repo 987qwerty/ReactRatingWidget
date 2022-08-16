@@ -4,9 +4,9 @@ import {WidgetContext} from '../App.js'
 
 const RatingBar = () => {
     const [chosen, setChosen] = useContext(WidgetContext)
-    const getRating = (num) => {
+    const GetRating = (props) => {
         let numbers = []
-        for(let i = 1; i <= num; i++){
+        for(let i = 1; i <= props.num; i++){
             numbers.push(
                 <button
                     className={`${styles.num} 
@@ -20,7 +20,7 @@ const RatingBar = () => {
     }
     return (
         <div className={styles.wrapper}>
-            {getRating(5)}
+            <GetRating num={5}/>
         </div>
     );
 };

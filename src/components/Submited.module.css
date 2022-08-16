@@ -20,7 +20,7 @@ p {
     color: hsl(217, 12%, 63%);
     margin: 5px;
 }
-h1{
+.text{
     color: hsl(0, 0%, 100%);
     margin: 5px auto;
 

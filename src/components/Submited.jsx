@@ -8,7 +8,7 @@ const Submited = () => {
         <div className={styles.box}>
             <img src={require('./images/illustration-thank-you.svg').default}/>
             <div className={styles.boxForSelected}>{`You selected ${chosen} out of 5`}</div>
-            <h1>Thank you!</h1>
+            <h1 className={styles.text}>Thank you!</h1>
             <p>We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!</p>
         </div>
     );

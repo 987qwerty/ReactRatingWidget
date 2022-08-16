@@ -1,12 +1,12 @@
 .wrapper{
     display: flex;
     margin: auto;
-
 }
+
 .num {
     border: 0;
     margin: 6px;
-    padding: 0px;
+    padding: 0;
     display: block;
     color: #636c75;
     font-size: 20px;
@@ -14,7 +14,7 @@
     height: 4rem;
     width: 4rem;
     border-radius: 50%;
-    font-family: Overpass;
+    font-family: Overpass, sans-serif;
     font-weight: bold;
     cursor: pointer;
 }
